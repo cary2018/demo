@@ -14,5 +14,8 @@
         "files":[
             "tools.php"
         ]
+    },
+    "require": {
+        "cary2018/p": "dev-master"
     }
 }
