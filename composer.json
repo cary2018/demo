@@ -16,6 +16,6 @@
         ]
     },
     "require": {
-        "cary2018/p": "dev-master"
+        "cary2018/p": "1.0.0"
     }
 }
