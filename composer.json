@@ -1,25 +1,26 @@
 {
-    "name":"cary2018/p",
-    "description":"打印数组函数",
-    "type":"library",
-        "keywords": [
-        "cary2018",
-        "p"
+    "name": "appbolaget/dd",
+    "description": "This package will add the helper functions dd and dump to your application.",
+    "type": "library",
+    "keywords": [
+        "dd",
+        "dump"
     ],
-    "license":"MIT",
-    "authors":[
+    "homepage": "https://appbolaget.se",
+    "authors": [
         {
-            "name":"cary2018",
-            "email":"373889161@qq.com"
+            "name": "Robin Bertram",
+            "email": "robin.bertram@gmail.com"
         }
     ],
     "require": {
         "symfony/var-dumper": "~3.2"
     },
-    "autoload":{
-        "files":[
-            "tools.php"
+    "autoload": {
+        "files": [
+            "src/dd.php",
+            "src/Dumper.php",
+            "src/HtmlDumper.php"
         ]
     }
-    
 }
