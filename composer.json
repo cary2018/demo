@@ -1,5 +1,5 @@
 {
-    "name": "appbolaget/dd",
+    "name": "cary2018/dd",
     "description": "This package will add the helper functions dd and dump to your application.",
     "type": "library",
     "keywords": [
