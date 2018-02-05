@@ -2,6 +2,10 @@
     "name":"cary2018/p",
     "description":"打印数组函数",
     "type":"library",
+        "keywords": [
+        "cary2018",
+        "p"
+    ],
     "license":"MIT",
     "authors":[
         {
@@ -9,13 +13,13 @@
             "email":"373889161@qq.com"
         }
     ],
-    "minimum-stability":"dev",
+    "require": {
+        "symfony/var-dumper": "~3.2"
+    },
     "autoload":{
         "files":[
             "tools.php"
         ]
-    },
-    "require": {
-        "cary2018/p": "1.0.01"
     }
+    
 }
